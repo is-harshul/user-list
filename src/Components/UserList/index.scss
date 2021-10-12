@@ -1,0 +1,139 @@
+.user-list-head-wrapper {
+  margin: 0 auto;
+  width: 90%;
+
+  .info-head {
+    margin: 26px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .heading-info {
+      h5 {
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+      }
+    }
+
+    .create-btn-container {
+      button {
+        border: none;
+        background: #404040;
+        color: #ffffff !important;
+        font-weight: 100;
+        padding: 20px;
+        text-transform: uppercase;
+        border-radius: 6px;
+        display: inline-block;
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+          cursor: pointer;
+          color: #404040 !important;
+          font-weight: 700 !important;
+          letter-spacing: 1px;
+          background: none;
+          -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+          -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+          transition: all 0.3s ease 0s;
+        }
+      }
+    }
+
+    .input-search-container {
+      input {
+        border: 2px solid;
+        border-radius: 20px;
+        font-size: 1rem;
+        margin: 0.25rem;
+        min-width: 125px;
+        padding: 0.5rem;
+        transition: background-color 0.5s ease-out;
+        outline: none;
+      }
+    }
+  }
+
+  .user-list-container {
+    .list-container {
+      .list-item-container {
+        list-style: none;
+        margin: 20px;
+        border: 1px solid gainsboro;
+        border-radius: 3px;
+        padding: 14px;
+        user-select: none;
+
+        &:hover {
+          border: 1px solid rgb(109, 101, 101);
+        }
+
+        .inner-li {
+          display: flex;
+          justify-content: space-between;
+
+          &:hover {
+            cursor: move;
+          }
+
+          .name-org_wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .name-container {
+              &:hover {
+                cursor: pointer;
+              }
+            }
+
+            .org_name-container {
+              font-size: 12px;
+              color: grey;
+
+              img {
+                height: 14px;
+                width: 14px;
+                margin: 4px 2px 7px 0;
+              }
+
+              .org_name {}
+            }
+          }
+
+          .right-profile-control-container {
+            display: flex;
+            align-items: center;
+
+            .profile-pic-container {
+              margin: 0 10px;
+
+              &:hover {
+                cursor: pointer;
+              }
+
+              img {}
+            }
+
+            .li-controls {
+              .del-icon {
+                border-radius: 50%;
+                height: 30px;
+                width: 30px;
+                padding: 2px;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                  cursor: pointer;
+                  background-color: #ff8383;
+                  transition: background-color 0.3s ease;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

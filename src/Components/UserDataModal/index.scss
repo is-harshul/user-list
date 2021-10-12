@@ -1,0 +1,81 @@
+.user-data-modal-container__inner {
+  user-select: none;
+
+  .name-img-cont {
+    display: flex;
+    flex-direction: column;
+
+    .img-cont {
+      display: flex;
+      justify-content: center;
+
+      .initials-picture-wrapper {
+        margin: 0;
+      }
+    }
+
+    .name-cont {
+      display: flex;
+      justify-content: center;
+      margin-top: 12px;
+      font-size: large;
+      font-weight: bold;
+
+      .name-text {}
+    }
+
+    .phone-cont {
+      display: flex;
+      justify-content: center;
+      font-size: large;
+      color: rgb(132, 206, 21);
+
+      .phone-text {}
+    }
+  }
+
+  hr {
+    margin: 24px 0;
+  }
+
+  .personal-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+
+    .infoItem {
+      margin-bottom: 16px;
+    }
+
+    .left-field-heading {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-right: 10px;
+
+      .field-heading {
+        font-weight: bold;
+      }
+    }
+
+    .right-field-value {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+
+      .field-value {}
+    }
+  }
+
+  // display: flex;
+  // flex-direction: column;
+
+  // li {
+  //   .field-heading {
+  //     font-weight: bold;
+  //   }
+
+  //   .field-value {}
+  // }
+  // }
+}

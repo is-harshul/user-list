@@ -1,0 +1,14 @@
+.App {
+  font-family: 'Open Sans', sans-serif;
+
+  .app-header {
+    display: flex;
+    background-color: #444443;
+
+    img {
+      height: 50px;
+      margin: 16px 0 16px 50px;
+      align-self: flex-start;
+    }
+  }
+}
